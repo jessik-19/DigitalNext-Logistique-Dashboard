@@ -1,19 +1,51 @@
-# DigitalNext-Logistique-Dashboard
-Projet Data Analyst : suivi logistique complet pour l'entreprise fictive DigitalNext. Analyse des commandes, poids, transport et incidents à travers un dashboard Power BI et les datasets associés. Technologies : Power BI, SQL, Dataset CSV  Objectif : Simulation d'un tableau de bord logistique en conditions réelles
+# DigitalNext - Tableau de Bord Logistique 📦🚛
 
-# DigitalNext - Tableau de bord logistique
+## 🎯 Objectif du Projet
 
-Ce projet simule un suivi complet des performances logistiques pour l'entreprise fictive DigitalNext.
-Analyse des commandes, poids, transport et incidents à travers un dashboard Power BI et les datasets associés.
+Ce tableau de bord permet de piloter l'activité logistique de DigitalNext en offrant une vue complète sur :
 
-## Contenu du dépôt :
-- Dataset `DigitalNext_Logistique.csv`
-- Fichier Power BI `DigitalNext_Dashboard.pbix`
+✅ Les volumes de commandes traitées  
+✅ La répartition des produits et des livraisons  
+✅ L'analyse des incidents logistiques  
+✅ Les coûts et poids transportés  
+✅ Les indicateurs clés de performance logistique  
 
-## Objectifs :
-- Analyse des commandes, poids transporté, frais de transport, incidents
-- Visualisation dynamique via Power BI
-- Optimisation de la chaîne logistique simulée
+Ce projet simule une activité réaliste d'entreprise avec un jeu de données complet et complexe, généré à partir de plusieurs tables liées (clients, commandes, produits, transporteurs, incidents…).
 
-**Technologies utilisées** : Power BI, SQL, CSV
-**Objectif** : Simulation d'un tableau de bord logistique en conditions réelles
+---
+
+## 🛠️ Outils et Technologies
+
+- PostgreSQL (Base de données relationnelle)  
+- Supabase (Hébergement cloud PostgreSQL)  
+- Google Looker Studio (Visualisation interactive)  
+- SQL (Requêtes personnalisées et KPIs)  
+
+---
+
+## 📊 Données Disponibles
+
+Le dataset contient plusieurs tables connectées :
+
+- **clients.csv** : Informations clients  
+- **commandes.csv** : Détails des commandes  
+- **produits.csv** : Catalogue produits  
+- **transporteurs.csv** : Transporteurs partenaires  
+- **incidents.csv** : Historique des incidents de transport  
+- **details_commandes.csv** : Détail par produit et quantité par commande  
+
+Toutes les données ont été générées pour refléter des problématiques logistiques réalistes (volumes, retards, incidents, poids transportés, etc).
+
+---
+
+## 🚀 Visualisations Clés du Dashboard
+
+- KPIs : Nombre de commandes, poids total, coûts transport, taux d'incidents…  
+- Carte interactive des livraisons  
+- Répartition des produits par poids  
+- Évolution temporelle des frais de transport  
+- Analyse des incidents par transporteur  
+- Filtres dynamiques : période, région, poids…  
+
+---
+
